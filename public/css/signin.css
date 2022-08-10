@@ -1,0 +1,35 @@
+select {
+  padding: 1em 4.1em;
+  border-radius: 0.8em;
+  border: 2px solid rgb(164, 164, 255);
+  transition: 300ms;
+  font-size: 1.05em;
+  color: gray;
+  margin: 1em;
+  text-align: center;
+}
+select:focus,
+select:hover {
+  /* border-width: 3px; */
+  border-radius: 0.4em;
+  outline: none;
+}
+
+option {
+  text-align: center;
+}
+
+button {
+  border: 0;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 0.7em;
+  font-size: 1.1em;
+  color: white;
+}
+
+.warning {
+  margin: 0;
+  padding: 0;
+  color: red;
+}

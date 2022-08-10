@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/signin.css" />
+    <title>Word Test</title>
+  </head>
+  <body>
+    <form id="form" action="/signin" method="post">
+      <input
+        class="input"
+        type="text"
+        name="id"
+        id="input_ID"
+        placeholder="ID"
+      /><br />
+      <input
+        class="input"
+        type="password"
+        name="pw"
+        id="input_PW"
+        placeholder="Password"
+      />
+    </form>
+    <a href="/signup" class="color_blue">Dont have a account?</a><br />
+    <button type="button" id="btn" class="background_blue">Sign In</button>
+
+    <script src="client/signin.js"></script>
+  </body>
+</html>

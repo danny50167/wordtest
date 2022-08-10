@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/study/result.css" />
+    <title>Word Test</title>
+  </head>
+  <body>
+    <main>
+      <h3 id="result_small">
+        <span id="display_correct">3</span>/<span id="display_total">3</span>
+      </h3>
+      <h3 id="result_image">100</h3>
+      <h1 id="result_big">100</h1>
+
+      <form action="/study" method="post">
+        <input type="text" hidden id="hidden" name="score" />
+        <button id="btn" type="submit">Done</button>
+      </form>
+    </main>
+
+    <script src="client/study/result.js"></script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+button {
+  border: 0;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 0.7em;
+  font-size: 1.1em;
+  color: white;
+}
+
+#words {
+  margin: 3em;
+}
+
+#input_word {
+  margin-top: 0;
+}
+
+.word {
+  padding: 1em;
+  margin: 1em;
+  border-radius: 0.7em;
+  margin-top: 10em;
+  background-color: rgb(110, 110, 248);
+  color: white;
+}

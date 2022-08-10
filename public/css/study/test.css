@@ -1,0 +1,7 @@
+main {
+  transition: 700ms;
+}
+
+#word_prob {
+  color: hsl(0, 0%, 30%);
+}

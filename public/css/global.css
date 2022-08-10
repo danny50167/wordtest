@@ -1,0 +1,103 @@
+body {
+  text-align: center;
+  background-color: #f8f8f8;
+  --black: #252525;
+  --blue: rgb(110, 110, 248);
+  --backgroundBlue: rgb(110, 110, 248);
+}
+
+* {
+  color: var(--black);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+}
+
+input {
+  padding: 1em 2em;
+  font-size: 1.05em;
+  border-radius: 0.8em;
+  border: 2px solid rgb(164, 164, 255);
+  transition: 300ms;
+  margin: 1em;
+  text-align: center;
+  color: gray;
+}
+
+input:focus,
+input:hover {
+  /* border-width: 3px; */
+  border-radius: 0.4em;
+  outline: none;
+}
+
+input::placeholder {
+  margin: 0;
+  padding: 0;
+  /* font-size: 1.2em; */
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline 2px;
+  /* color: var(--blue); */
+}
+
+button,
+br,
+select,
+option {
+  user-select: none;
+}
+
+button:focus,
+:hover {
+  outline: 0;
+}
+
+input::placeholder {
+  user-select: none;
+}
+
+main {
+  margin: 3em;
+  padding: 2em;
+  background-color: hsl(0, 0%, 92%);
+  border: 2px solid rgb(164, 164, 255);
+
+  box-shadow: 4px 4px 4px gray;
+  border-radius: 1em;
+}
+
+.color_blue {
+  color: var(--blue);
+}
+
+.background_blue {
+  background-color: var(--backgroundBlue);
+  color: white;
+}
+
+button {
+  background-color: var(--backgroundBlue);
+  border: 0;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 0.7em;
+  font-size: 1.1em;
+  color: white;
+}
+
+.padding {
+  padding: 1em;
+}
+
+.margin {
+  margin: 1em;
+}
+
+.border {
+  border-radius: 0.7em;
+}
